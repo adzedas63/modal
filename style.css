@@ -11,7 +11,7 @@ body {
     display: none;
     font-family: "Calibri";
     position: fixed;
-    z-index: 10000;
+    z-index: 99;
     left: 0;
     top: 0;
     width: 100%;
@@ -91,10 +91,7 @@ html, body {
   top: 50%;
 }
 
-#stats {
-  right: 10px;
-  top: 10px;
-}
+
 
 /* Info */
 @keyframes show-info {
