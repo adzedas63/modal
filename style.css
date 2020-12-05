@@ -89,9 +89,14 @@ html, body {
   position: absolute;
   left: 50%;
   top: 50%;
+  margin-left: 120px;
+  margin-top: 180px;
 }
 
-
+#stats {
+  right: 10px;
+  top: 10px;
+}
 
 /* Info */
 @keyframes show-info {
@@ -107,7 +112,7 @@ html, body {
   transform-style: preserve-3d;
   transform: perspective(800px);
   font-family: "Quantico", sans-serif;
-  position: absolute;
+  position: relative;
   font-size: 12px;
   opacity: 0.8;
   color: #fff;
